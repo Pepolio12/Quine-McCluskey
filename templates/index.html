@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Quine-McCluskey</title>
+  <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css" />
+  <script defer src="{{ url_for('static', filename='script/script.js') }}"></script>
+</head>
+
+  <body>
+    <div id="Cuerpo">
+      <header>
+         <h1>Quine-McCluskey</h1>
+      </header>
+
+      <main>
+
+        <div>
+        
+        <div id="Bloques">
+          <p>Ingrese los valores</p>
+          <input type="number" id="Minterminos" placeholder="Mintermino">
+          <input type="number" id="DontCare" placeholder="Don't Care">
+          <input type="button" id="Comenzar"  value="Comenzar">
+        </div>
+  
+        <div id="MinterminosTexto">
+          <p id="Minter"></p>
+          <p id="Dont"></p>
+          <hr>
+          <p id="EcuacionLogica"></p>
+          <hr>
+        </div>
+
+        <div id="Tablas">
+  
+        </div>
+      
+      </main>
+    </div>
+    
+</body>
+
+</html>

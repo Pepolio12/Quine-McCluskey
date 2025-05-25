@@ -1,0 +1,146 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #000000eb;
+  text-align: center;
+  position: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+#Cuerpo{
+  background-color: rgb(0, 0, 0) ;
+  width: 99%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+
+header{
+  
+  width: 100%;
+  text-align: center;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-color: #ffffff;
+  margin: 0 auto;
+  background-color: black;
+}
+
+h1{
+  font-size: 20px;
+  color: #ffffff;
+  font-family:'Times New Roman', Times, serif;
+  background-color: black;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0px; 
+}
+
+input[type="number"] {
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+
+  border-color: #ffffff;
+  height: 30px;
+  width: 70px;
+  margin: 0 auto;
+}
+
+#Bloques{
+  padding: 10px;
+  background-color: black;
+  border-width: 1px;
+  border-bottom: 100%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color:#ffffff;
+  height: 60%;
+  width: 180px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 25px;
+}
+p{
+  color: #ffffff;
+  font-size: 15px;
+}
+
+
+main{
+  position: flex;
+  align-items: center;
+  height: 85%;
+  width: 100%;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-color: #ffffff;
+}
+
+input::placeholder{
+  font-size: 10px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+input[type="button"] {
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-radius: 4px;
+
+  margin-top: 10px;
+
+  height: 30px;
+  width: 150px;
+}
+
+#Comenzar:hover{
+  background-color: #303030;
+  color: rgb(255, 255, 255);
+}
+
+#Tablas{
+  height: 100%;
+  min-height: 300px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+table, th, tr, td{
+  margin: 0 auto;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;
+  border-collapse : collapse;
+  padding: 6px
+}
+
+table{
+  margin: 20px;
+}
